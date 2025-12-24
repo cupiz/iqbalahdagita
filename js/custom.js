@@ -58,7 +58,7 @@ $(document).ready(function () {
 	initMagnetButton();
 	initStats();
 	initCounter();
-	initPixelate();
+	// initPixelate();
 	initServices();
 	initPBars();
 	initTestimonialsSlider();

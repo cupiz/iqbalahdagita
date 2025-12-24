@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Concept: Circuit Maze / Tech Knot -->
+  <!-- Style: Intricate, Professional, Interlocking -->
+  
+  <defs>
+    <style>
+      .st0 {
+        fill: none;
+        stroke: #000;
+        stroke-width: 28px;
+        stroke-linecap: round; /* Rounded ends for smoother look */
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+      }
+      .fill-black {
+        fill: #000;
+      }
+    </style>
+  </defs>
+
+  <!-- The "Frame" isn't a simple box, it's part of the path -->
+  
+  <!-- Path 1: Top-Left to Center -->
+  <path d="M106 106 H256 V206 H156 V306" class="st0"/>
+  
+  <!-- Path 2: Bottom-Right to Center -->
+  <path d="M406 406 H256 V306 H356 V206" class="st0"/>
+  
+  <!-- Path 3: Top-Right Corner Element -->
+  <path d="M406 106 V206 H330" class="st0"/>
+  
+  <!-- Path 4: Bottom-Left Corner Element -->
+  <path d="M106 406 V306 H182" class="st0"/>
+
+  <!-- Accents / Data Nodes -->
+  <circle cx="406" cy="106" r="14" class="fill-black"/>
+  <circle cx="106" cy="406" r="14" class="fill-black"/>
+  <circle cx="256" cy="256" r="20" class="fill-black"/> <!-- Core Node -->
+
+  <!-- Abstract "E" suggestion on the right, "I" on the left implicitly -->
+</svg>

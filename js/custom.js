@@ -164,26 +164,30 @@ $(document).ready(function () {
 			link.textContent = "";
 
 			letters.forEach((letter, i) => {
-				// If it's a space, just add a plain text node
-				if (letter === " ") {
-					link.append(document.createTextNode(" "));
-					return;
-				}
+				// Check if it's a space, use NBSP, but allow it to be wrapped in spans like other letters
+				const char = (letter === " " || letter === "\u00a0") ? "\u00a0" : letter;
 
 				// Same animation structure as your original code
 				let span = document.createElement("span");
+
+				// Force width for space characters ONLY for specific buttons (Contact Me)
+				if (char === "\u00a0" && link.classList.contains("blink-wide-space")) {
+					span.style.display = "inline-block";
+					span.style.width = "0.3em";
+				}
+
 				let delay = (i + 1) / 40;
 
 				if (i % 2 === 0) delay -= 0.1;
 				else delay += 0.05;
 
 				let letterOut = document.createElement("span");
-				letterOut.textContent = letter;
+				letterOut.textContent = char;
 				letterOut.style.transitionDelay = `${delay}s`;
 				letterOut.classList.add("out");
 
 				let letterIn = document.createElement("span");
-				letterIn.textContent = letter;
+				letterIn.textContent = char;
 				letterIn.style.transitionDelay = `${delay}s`;
 				letterIn.classList.add("in");
 

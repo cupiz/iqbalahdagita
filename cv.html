@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV ATS - Iqbal Ahdagita Elbadra</title>
+    <style>
+        /* Exact replication of the clean serif academic/ATS CV layout */
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #ffffff;
+            color: #000000;
+            margin: 0;
+            padding: 40px;
+            line-height: 1.4;
+        }
+
+        .cv-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Header styling */
+        .cv-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .cv-name {
+            font-size: 24px;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin: 0 0 6px 0;
+            letter-spacing: 0.5px;
+        }
+
+        .cv-contact {
+            font-size: 13px;
+            margin: 0;
+            line-height: 1.5;
+        }
+
+        /* Section header styling */
+        .cv-section-title {
+            font-size: 13px;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-bottom: 1px solid #000000;
+            padding-bottom: 1px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            letter-spacing: 0.5px;
+        }
+
+        /* Summary styling */
+        .cv-summary {
+            font-size: 13px;
+            margin: 0 0 15px 0;
+            text-align: justify;
+            text-indent: 0;
+        }
+
+        /* Flex row for company and dates */
+        .cv-item-header {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+            font-size: 13px;
+            margin-bottom: 1px;
+        }
+
+        .cv-item-title {
+            font-style: italic;
+            font-size: 13px;
+            margin-bottom: 4px;
+        }
+
+        /* Lists */
+        ul {
+            margin: 0 0 12px 0;
+            padding-left: 22px;
+        }
+
+        li {
+            font-size: 13px;
+            margin-bottom: 3px;
+            text-align: justify;
+            list-style-type: disc;
+        }
+
+        .skills-list {
+            margin: 0;
+            padding-left: 22px;
+        }
+
+        .skills-list li {
+            list-style-type: disc;
+            margin-bottom: 3px;
+        }
+
+        /* Floating / Print Action Button */
+        .cv-actions {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px dashed #cccccc;
+        }
+
+        .btn-print {
+            padding: 10px 24px;
+            background-color: #000000;
+            color: #ffffff;
+            border: 1px solid #000000;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 13px;
+            font-weight: bold;
+            cursor: pointer;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            transition: all 0.2s ease;
+        }
+
+        .btn-print:hover {
+            background-color: #ffffff;
+            color: #000000;
+        }
+
+        /* Print Media styles */
+        @media print {
+            body {
+                padding: 0;
+                margin: 0;
+            }
+
+            .cv-container {
+                max-width: 100%;
+                width: 100%;
+            }
+
+            .cv-actions {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="cv-container">
+        <!-- HEADER -->
+        <header class="cv-header">
+            <h1 class="cv-name">IQBAL AHDAGITA ELBADRA</h1>
+            <p class="cv-contact">
+                Purwokerto, Banyumas, Indonesia<br>
+                Email: spfindo@gmail.com | Phone: +6285882255969<br>
+                Portfolio & Projects: iqbalahdagita.vercel.app
+            </p>
+        </header>
+
+        <!-- PROFESSIONAL SUMMARY -->
+        <section>
+            <h2 class="cv-section-title">PROFESSIONAL SUMMARY</h2>
+            <p class="cv-summary">
+                A proactive and passionate technology professional with a solid foundation in programming since 2013. Graduated with a Bachelor of Informatics from Universitas Jendral Soedirman and further sharpened through intensive Binar Academy Bootcamps in Data Science and Quality Assurance. Experienced in developing engaging web applications, orchestrating end-to-end IT projects, and leading freelance teams ("Satria Perwira"). Eager to bring a comprehensive skill set combining full-stack development, logic-driven QA testing, and big data analysis to create scalable organizational impact.
+            </p>
+        </section>
+
+        <!-- WORK EXPERIENCE -->
+        <section>
+            <h2 class="cv-section-title">WORK EXPERIENCE</h2>
+
+            <!-- Job 1 -->
+            <div>
+                <div class="cv-item-header">
+                    <span>Satria Perwira, Purwokerto</span>
+                    <span>January 2017 – Present</span>
+                </div>
+                <div class="cv-item-title">Programmer (Freelance)</div>
+                <ul>
+                    <li>Established and led a freelance development team consisting of college peers.</li>
+                    <li>Successfully negotiated and delivered full-cycle technology projects, helping government entities, SMEs (UMKM), and Universities digitize their operations through custom web applications.</li>
+                </ul>
+            </div>
+
+            <!-- Job 2 -->
+            <div>
+                <div class="cv-item-header">
+                    <span>Inspektorat Dinas, Purbalingga</span>
+                    <span>January 2018 – June 2018</span>
+                </div>
+                <div class="cv-item-title">Web Developer (Intern)</div>
+                <ul>
+                    <li>Engineered the renovation of the Inspektorat's institutional website profile to elevate public transparency.</li>
+                    <li>Architected and developed a public complaints program website application from scratch.</li>
+                    <li>Successfully launched the application to the public domain, garnering positive reception and high adoption rates from citizens and internal stakeholders.</li>
+                </ul>
+            </div>
+
+            <!-- Job 3 -->
+            <div>
+                <div class="cv-item-header">
+                    <span>Global Technology Solution, Purwokerto</span>
+                    <span>June 2013 – September 2013</span>
+                </div>
+                <div class="cv-item-title">IT Tech Staff (Intern)</div>
+                <ul>
+                    <li>Administered troubleshooting and physical installation of IT Office Client equipment, encompassing Network infrastructure and CCTV security systems.</li>
+                    <li>Conducted rigorous regular maintenance checks, guaranteeing that all equipment functioned at optimal capacities.</li>
+                    <li>Developed and implemented strict Standard Operating Procedures (SOPs) to ensure the sustainable usage of IT logistics.</li>
+                    <li>Provided comprehensive status updates and reported potential bottleneck issues to the management board.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- PROJECT EXPERIENCE -->
+        <section>
+            <h2 class="cv-section-title">PROJECT EXPERIENCE</h2>
+
+            <!-- Project 1 -->
+            <div>
+                <div class="cv-item-header">
+                    <span>Point of Sales System, Old Friends Cafe</span>
+                    <span>June 2019</span>
+                </div>
+                <ul>
+                    <li>Developed a robust PHP Native web application encompassing comprehensive modules for cashiers, ordering, booking, kitchen routing, inventory management, and financial reporting.</li>
+                    <li>Collaborated intimately with the café team to meticulously gather requirements, ensuring the final deliverable seamlessly accommodated their high-paced environment.</li>
+                    <li>Led rigorous Quality Assurance checks prior to launch and provided direct training to the operational staff, resulting in immediate systemic adoption.</li>
+                </ul>
+            </div>
+
+            <!-- Project 2 -->
+            <div>
+                <div class="cv-item-header">
+                    <span>Participant Registration System, Indonesian Robotics Contest</span>
+                    <span>April 2019</span>
+                </div>
+                <ul>
+                    <li>Developed a massive-scale registration and document verification system using the Laravel Framework.</li>
+                    <li>Engineered secure architectures to maintain highly accurate records of nationwide participants, offering real-time status updates directly to the contest management board.</li>
+                    <li>Orchestrated cross-departmental collaboration to proactively identify bottlenecks and patch system performance heavily burdened by concurrent traffic.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- EDUCATION -->
+        <section>
+            <h2 class="cv-section-title">EDUCATION</h2>
+
+            <!-- Edu 1 -->
+            <div>
+                <div class="cv-item-header">
+                    <span>Binar Academy Bootcamp</span>
+                    <span>June 2023 – September 2023</span>
+                </div>
+                <div class="cv-item-title">Data Science</div>
+                <ul>
+                    <li>Final Score: 87</li>
+                </ul>
+            </div>
+
+            <!-- Edu 2 -->
+            <div>
+                <div class="cv-item-header">
+                    <span>Binar Academy Bootcamp x Kominfo</span>
+                    <span>March 2023 – April 2023</span>
+                </div>
+                <div class="cv-item-title">Quality Assurance</div>
+                <ul>
+                    <li>Final Score: 84.2</li>
+                </ul>
+            </div>
+
+            <!-- Edu 3 -->
+            <div>
+                <div class="cv-item-header">
+                    <span>Universitas Jendral Soedirman</span>
+                    <span>April 2015 – December 2022</span>
+                </div>
+                <div class="cv-item-title">S1 Bachelor of Informatics</div>
+                <ul>
+                    <li>GPA: 3.1</li>
+                </ul>
+            </div>
+
+            <!-- Edu 4 -->
+            <div>
+                <div class="cv-item-header">
+                    <span>SMK Telkom Purwokerto</span>
+                    <span>January 2012 – December 2014</span>
+                </div>
+                <div class="cv-item-title">Software Engineering</div>
+            </div>
+        </section>
+
+        <!-- TECHNICAL SKILLS -->
+        <section>
+            <h2 class="cv-section-title">TECHNICAL SKILLS</h2>
+            <ul class="skills-list">
+                <li><strong>Data Science:</strong> Python, Numpy, Pandas, Scikit-learn, Flask (API), Gradio/Streamlit (UI), Matplotlib, Seaborn</li>
+                <li><strong>Web Development:</strong> PHP, JavaScript, HTML, CSS, MySQL</li>
+                <li><strong>Frameworks:</strong> CodeIgniter, Laravel</li>
+                <li><strong>Quality Assurance:</strong> Manual Testing, Bug Reporting, Postman, Katalon, K6</li>
+            </ul>
+        </section>
+
+        <!-- AWARDS & ACHIEVEMENTS -->
+        <section>
+            <h2 class="cv-section-title">AWARDS & ACHIEVEMENTS</h2>
+            <ul>
+                <li><strong>Grand Finalist E-Government (4th place)</strong> — E-Government Competition "Find IT", Universitas Gadjah Mada (UGM) (2018)</li>
+                <li><strong>1st Place in Website Innovation</strong> — Informatic Computer Science Week, Universitas Islam Indonesia (UII) (2017)</li>
+                <li><strong>Grand Finalist Website Competition</strong> — Telkom University (2013)</li>
+            </ul>
+        </section>
+
+        <!-- ACTIONS (Disembunyikan otomatis saat diprint ke PDF) -->
+        <div class="cv-actions">
+            <button onclick="window.print()" class="btn-print">Cetak / Simpan sebagai PDF</button>
+        </div>
+    </div>
+
+</body>
+
+</html>

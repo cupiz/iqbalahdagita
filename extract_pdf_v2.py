@@ -33,4 +33,4 @@ def extract_content(pdf_path):
         print(e)
 
 if __name__ == "__main__":
-    extract_content("d:\\Work\\Portofolio\\CV ATS_Iqbal.pdf")
+    extract_content("d:\\Work\\Portofolio\\CV_ATS_IqbalAhdagitaElbadra.pdf")

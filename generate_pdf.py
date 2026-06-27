@@ -4,7 +4,7 @@ import sys
 
 def main():
     html_path = os.path.abspath("cv.html")
-    pdf_path = os.path.abspath("CV_ATS_IqbalAhdagitaElbadra.pdf")
+    pdf_path = os.path.abspath("CVIQBALCOMPLETE.pdf")
 
     print("--- ATS PDF GENERATOR ---")
     print(f"Source HTML: {html_path}")
